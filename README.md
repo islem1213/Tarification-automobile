@@ -6,10 +6,6 @@
 | `Synthese_Pricing_Auto.docx` | La synthèse de 2 pages demandée (méthodologie, difficultés, résultats, comparaison des approches, conclusions) |
 | `pricing_auto.ipynb` | Le notebook complet et commenté, **déjà exécuté** : il s'ouvre avec tous les résultats et graphiques visibles, sans rien relancer |
 
-## Comment lire le notebook
-
-Il suit les six points de l'énoncé, dans un ordre légèrement différent — expliqué dans
-le document lui-même.
 
 | § | Contenu | Point de l'énoncé |
 |---|---|---|
