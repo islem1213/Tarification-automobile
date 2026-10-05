@@ -70,14 +70,3 @@ projet_actuariat/
 Pareto généralisée par `scipy`, et le découpage train/test comme les métriques de
 validation sont codés explicitement.
 
-## Deux pièges rencontrés, à connaître si vous reprenez le code
-
-1. **Ne pas écrire `import statsmodels.api as sm`.** Sur la machine de travail, ce
-   module échoue au chargement d'une DLL de séries temporelles bloquée par la sécurité
-   Windows. Le notebook importe directement les sous-modules utiles
-   (`statsmodels.formula.api`, `statsmodels.genmod.families`), ce qui contourne le
-   problème sans rien perdre.
-2. **Ne jamais nommer un DataFrame `C`.** Dans les formules de type `y ~ C(variable)`,
-   `C()` est la fonction de `patsy` qui déclare une variable catégorielle. Une variable
-   Python nommée `C` la masque et produit une erreur difficile à diagnostiquer
-   (`'DataFrame' object is not callable`).
