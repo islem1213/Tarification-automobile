@@ -1,6 +1,5 @@
-# Tarification automobile — Projet d'actuariat, Groupe 1
+# Tarification automobile 
 
-## Les deux livrables
 
 | Fichier | Contenu |
 |---|---|
